@@ -25,6 +25,6 @@ public class calculadoraTest {
         int multiplica = calculadora.multiplica(a,b);
         int divide = calculadora.divide(a,b);
         
-        Assert.assertEquals(1, subtrai);
+        Assert.assertEquals(2, subtrai);
     }
 }
