@@ -17,11 +17,14 @@ public class calculadoraTest {
     public void somaTest(){
         Calculadora calculadora = new Calculadora();
         
-        int a = 5;
-        int b = 6;
+        int a = 6;
+        int b = 5;
         
         int soma = calculadora.soma(a,b);
+        int subtrai = calculadora.subtrai(a,b);
+        int multiplica = calculadora.multiplica(a,b);
+        int divide = calculadora.divide(a,b);
         
-        Assert.assertEquals(11, soma);
+        Assert.assertEquals(1, subtrai);
     }
 }
